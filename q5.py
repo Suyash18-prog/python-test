@@ -6,3 +6,6 @@ for num in numbers:
     print(num,end=" ")
 
 max_num = max(numbers)
+numbers.remove(max_num)
+
+print(max(numbers))
